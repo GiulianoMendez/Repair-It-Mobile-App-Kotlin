@@ -29,7 +29,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/txtNom"
+            android:id="@+id/txtUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -40,18 +40,19 @@
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/txtEdad"
+            android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/fondocaja"
             android:drawableLeft="@drawable/baseline_lock_open_24"
             android:hint="Password"
+            android:inputType="textPassword"
             android:padding="15dp"
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtForgotPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
